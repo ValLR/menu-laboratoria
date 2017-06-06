@@ -1,0 +1,19 @@
+*{
+	padding:0;
+	margin:0 auto;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: white;
+	color:white;
+}
+
+@media(min-width: 200px) and (max-width: 824px){
+	[class*="navbar"]{
+		width: 100%;
+	}
+	nav ul {display: none}
+}
+
