@@ -2,47 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Menú laboratoria</title>
-	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/media.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Menu Laboratoria</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
 </head>
 <body>
-<!-- Menu desktop -->
-	<nav class="navbar" id="navbar">
-		<div class="lista-menu flex-box">
+	<nav class="navbar">
+		<div class="menu flex-container">
 			<ul>
-				<div class="flex-box">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Products</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Customers</a></li>
-					<li><a href="#">Contact</a></li>
-				</div>
+				<li class="hide" id="menu-ppal"><a id="menux" href="">Menu</a></li>
+				<li class="show hidden"><a href="#">Home</a></li>
+				<li class="show hidden"><a href="#">About</a></li>
+				<li class="show hidden"><a href="#">Products</a></li>
+				<li class="show hidden"><a href="#">Services</a></li>
+				<li class="show hidden"><a href="#">Customers</a></li>
+				<li class="show hidden"><a href="#">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
-
-<!-- Menu desplegable -->
-
-	<section class="hide flex-box">
-		<nav class="hidden-navbar" id="hidden-nav">
-			<ul class="hidden-nav">
-				<li class="dropdown">
-					<a href="" class="dropbtn float-box">Menú</a>
-					<div class="dropdown-content flex-box">
-						<a href="#">Home</a>
-						<a href="#">About</a>
-						<a href="#">Products</a>
-						<a href="#">Services</a>
-						<a href="#">Customers</a>
-						<a href="#">Contact</a>
-					</div>
-				</li>							
-			</ul>
-		</nav>
-	</section>
-	<script src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

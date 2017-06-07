@@ -1,19 +1,55 @@
-*{
-	padding:0;
-	margin:0 auto;
-	overflow-x: hidden;
-}
 
-body {
+body{
 	font-family: 'Roboto', sans-serif;
-	background: white;
-	color:white;
+	margin: 0 auto;
 }
 
-@media(min-width: 200px) and (max-width: 824px){
-	[class*="navbar"]{
-		width: 100%;
+.flex-container{
+	display: flex;
+}
+@media (min-width: 200px) and (max-width: 534px) {
+	body{
+		font-family: 'Oswald', sans-serif;
+		color: white;
+
 	}
-	nav ul {display: none}
-}
-
+	.navbar{
+		background-color: black;
+		width: auto;
+	}
+	.menu.flex-container{
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+	.menu ul{
+		display: flex;
+		flex-direction: column;	
+	}
+	.menu ul li:hover{
+		background-color: grey;
+	}
+	#menux{
+		font-size: 35px;
+		text-decoration: none;
+		color: white;
+	}
+	.menu ul li a{
+		font-size: 20px;
+		text-decoration: none;
+		color: white;
+	}
+	.menu ul li a{
+		border-bottom: 2px solid #6B6B6B;
+		padding: 0;
+		border-right: 0px solid rgba(0,0,0,0.0);
+	}
+	.menu .menu-ppal{
+		cursor: pointer;
+	}
+	.hide{
+		display: inline-block;
+		font-size: 40px
+	}
+	.hidden {
+		display: none;
+	}
